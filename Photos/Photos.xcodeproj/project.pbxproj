@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		C607105B2356029C00F3E9FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607105A2356029C00F3E9FD /* AppDelegate.swift */; };
 		C607105D2356029C00F3E9FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607105C2356029C00F3E9FD /* SceneDelegate.swift */; };
-		C607105F2356029C00F3E9FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607105E2356029C00F3E9FD /* ViewController.swift */; };
 		C60710622356029C00F3E9FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60710602356029C00F3E9FD /* Main.storyboard */; };
 		C60710652356029C00F3E9FD /* Photos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C60710632356029C00F3E9FD /* Photos.xcdatamodeld */; };
 		C60710672356029D00F3E9FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60710662356029D00F3E9FD /* Assets.xcassets */; };
 		C607106A2356029D00F3E9FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60710682356029D00F3E9FD /* LaunchScreen.storyboard */; };
 		C60710752356029D00F3E9FD /* PhotosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60710742356029D00F3E9FD /* PhotosTests.swift */; };
 		C60710802356029D00F3E9FD /* PhotosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C607107F2356029D00F3E9FD /* PhotosUITests.swift */; };
+		C6458B7B2357F79900DA9703 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6458B7A2357F79900DA9703 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		C60710572356029C00F3E9FD /* Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C607105A2356029C00F3E9FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C607105C2356029C00F3E9FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C607105E2356029C00F3E9FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C60710612356029C00F3E9FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C60710642356029C00F3E9FD /* Photos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photos.xcdatamodel; sourceTree = "<group>"; };
 		C60710662356029D00F3E9FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		C607107B2356029D00F3E9FD /* PhotosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C607107F2356029D00F3E9FD /* PhotosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosUITests.swift; sourceTree = "<group>"; };
 		C60710812356029D00F3E9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6458B7A2357F79900DA9703 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			children = (
 				C607105A2356029C00F3E9FD /* AppDelegate.swift */,
 				C607105C2356029C00F3E9FD /* SceneDelegate.swift */,
-				C607105E2356029C00F3E9FD /* ViewController.swift */,
+				C6458B7A2357F79900DA9703 /* PhotosViewController.swift */,
 				C60710602356029C00F3E9FD /* Main.storyboard */,
 				C60710662356029D00F3E9FD /* Assets.xcassets */,
 				C60710682356029D00F3E9FD /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C60710652356029C00F3E9FD /* Photos.xcdatamodeld in Sources */,
-				C607105F2356029C00F3E9FD /* ViewController.swift in Sources */,
+				C6458B7B2357F79900DA9703 /* PhotosViewController.swift in Sources */,
 				C607105B2356029C00F3E9FD /* AppDelegate.swift in Sources */,
 				C607105D2356029C00F3E9FD /* SceneDelegate.swift in Sources */,
 			);

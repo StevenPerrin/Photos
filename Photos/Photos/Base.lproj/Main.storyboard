@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Photos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,11 +29,24 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <toolbarItems>
-                        <barButtonItem systemItem="camera" id="uz9-Y7-R5J"/>
-                        <barButtonItem systemItem="organize" id="epC-OK-jPE"/>
+                        <barButtonItem systemItem="camera" id="uz9-Y7-R5J">
+                            <connections>
+                                <action selector="useCamera:" destination="BYZ-38-t0r" id="GE7-hb-p6V"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem systemItem="organize" id="epC-OK-jPE">
+                            <connections>
+                                <action selector="useCameraRoll:" destination="BYZ-38-t0r" id="4CR-6f-zkw"/>
+                            </connections>
+                        </barButtonItem>
                     </toolbarItems>
                     <navigationItem key="navigationItem" id="XLb-oB-QM3"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="imageView" destination="HGF-9x-fpR" id="BBK-Qn-ljO"/>
+                        <outlet property="useCamera" destination="uz9-Y7-R5J" id="GbF-Mw-gSF"/>
+                        <outlet property="useCameraRoll" destination="epC-OK-jPE" id="IjT-0S-tzD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
